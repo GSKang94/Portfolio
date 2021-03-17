@@ -145,15 +145,10 @@
   font-size: 1.1em;
   font-weight: bold;
   margin-top: 2.1em;
-  /* position: absolute; */
-  /* transition: background-image 0.3s ease-out; */
-  /* transition: background-image 0.5s linear; */
-  /* right: 50%; */
   margin-bottom: 5em;
 }
 
 #projects button:hover {
-  /* background-color: chocolate; */
   background-image: linear-gradient(
     to right bottom,
     #f05454,
@@ -327,9 +322,15 @@ button ion-icon {
   }
 }
 
-/* @media only screen and (min-width: 479px) and (max-width: 979px) {
-   code
-} */
+@media only screen and (min-width: 479px) and (max-width: 979px) {
+  #project-container {
+    width: 80%;
+  }
+  #project-container img {
+    width: 250px;
+    height: 250px;
+  }
+}
 
 @keyframes vibrate-1 {
   0% {
