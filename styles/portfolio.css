@@ -102,7 +102,6 @@
   background-color: #101a28;
   color: #f9f7d9;
   padding-top: 4em;
-  /* position: relative; */
 }
 
 #projects h1 {
@@ -146,6 +145,7 @@
   font-weight: bold;
   margin-top: 2.1em;
   margin-bottom: 5em;
+  outline: none;
 }
 
 #projects button:hover {
@@ -168,18 +168,8 @@ button ion-icon {
   vertical-align: -0.2em;
 }
 
-/* #curve{
-    display: block;
-    stroke: none;
-    fill: #db6400;
-} */
-
 #curve {
   height: 150px;
-  overflow: hidden;
-  /* background-color: #db6400; */
-  /* background-image: linear-gradient(to right bottom, #f05454, #f45f4d, #f76a47, #f87640, #f9813a); */
-
   stroke: none;
   fill: #101a28;
 }
@@ -193,7 +183,6 @@ button ion-icon {
   flex-direction: column;
   text-align: center;
   font-size: 2em;
-  /* background-color: #db6400; */
   background-image: linear-gradient(
     to right bottom,
     #f05454,
@@ -202,11 +191,9 @@ button ion-icon {
     #f87640,
     #f9813a
   );
-  /* transition: background 0.6s ease-out; */
 }
 #contact .back-top {
   margin: 0 auto;
-  /* margin-top: 2em; */
   font-size: 1.4em;
   transition: background 0.3s ease-out;
 }
