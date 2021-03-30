@@ -69,7 +69,7 @@
   animation: vibrate-1 0.3s linear infinite both;
 }
 
-#welcome-section {
+#welcome {
   background-image: radial-gradient(
     circle,
     #26121d,
@@ -93,7 +93,7 @@
   align-items: center;
   font-size: 1.4em;
 }
-#welcome-section h3 {
+#welcome h3 {
   margin-top: 0.7em;
 }
 
@@ -252,7 +252,7 @@ button ion-icon {
     padding-right: 0.6em;
   }
 
-  #welcome-section {
+  #welcome {
     font-size: 1em;
   }
 
